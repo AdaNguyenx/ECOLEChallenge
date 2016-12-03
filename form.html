@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="script.js"></script>
+
+<!-- Reusable Component Template-->
+<form name = "arrayForm" method = "POST">
+	<!-- Put this where you want the input list to be displayed -->
+	<ul id = "display">
+	</ul>
+
+	<!-- Put this where you want user to add input -->
+	<input class = "newInput" id = "inputField"> 
+	<button class="newButton" id = "addButton" onclick="display();return false;"> Add </button> 
+
+	<!-- Put this where you want user to submit the form -->
+	<p> <button  class="newButton" onclick="submitProcessing();return false;"> Submit </button> </p>
+</form>
+
